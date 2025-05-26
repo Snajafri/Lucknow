@@ -20,9 +20,15 @@ p {
   color: #bf360c;
 }
 
-button {
-  padding: 9px 17px;
-  background: #e64a19;
-  color: white;
-  border: none;
-} 
+.para-box {
+  display: inline-block;
+  padding: 12px;
+  margin-top: 16px;
+  border: 1px solid #bf360c;
+  border-radius: 6px;
+  transition: background 0.3s;
+}
+
+.para-box:hover {
+  background: #ffe0b2;
+}
